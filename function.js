@@ -1,14 +1,16 @@
-const user = document.querySelector(".con-user");
-const menu = document.querySelector(".con-menu");
+const linkin = document.getElementById("link");
 
-function handleClick(evt, name) {
-    const items = document.querySelectorAll(".con-menu button");
-    const el = evt.target;
-    items.forEach((item) => {
-        item.classList.remove("active");
-    });
-    el.classList.add("active");
-    const elScroll = document.querySelector(`.${name}`);
-    contents.scrollTo(elScroll.offsetLeft, 0);
-}
+const data = [
+    ''
+];
 
+    const b = linkin.innerHTML = `<a id="link"
+href="${link}"
+target="_blank"
+rel="noopener noreferrer">
+<i class="bx bxl-${icon}-alt bx-border bx-${animation}-hover"></i>
+<span>
+  ${name}
+</span></a>`;
+
+console.log(b);
