@@ -234,13 +234,13 @@ body {
 }
 
 .con-posts .post img {
-  width: 445px;
+  width: 100%;
   position: absolute;
   height: 450px;
   border-radius: 30px;
   padding: 10px 10px;
   top: 50%;
-  /* left: 0%; */
+  left: 0%;
   transform: translate(0, -50%);
 }
 
