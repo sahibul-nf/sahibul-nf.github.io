@@ -236,7 +236,7 @@ body {
 .con-posts .post img {
   width: 100%;
   position: absolute;
-  image-orientation: flip;
+  height: 100px;
   top: 50%;
   left: 0%;
   transform: translate(0, -50%);
