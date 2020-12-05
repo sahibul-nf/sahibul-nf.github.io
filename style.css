@@ -184,7 +184,7 @@ body {
 .con-posts {
   min-width: 100%;
   scroll-snap-align: center;
-  /* overflow: auto; */
+  overflow: auto;
   padding-bottom: 30px;
   max-width: 500px;
 }
