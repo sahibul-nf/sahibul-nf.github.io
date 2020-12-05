@@ -205,7 +205,7 @@ body {
 
 .con-posts .post footer {
   position: absolute;
-  bottom: 10px;
+  bottom: 4px;
   z-index: 10;
   padding: 10px 20px;
 }
