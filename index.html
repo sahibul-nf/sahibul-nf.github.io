@@ -15,7 +15,7 @@
 <body>
   <div class="content">
     <div class="con-user">
-      <div class="avatar"><img src="assets/s.jpg" alt="" srcset="" /></div>
+      <div class="avatar"><img src="assets/jg.png" alt="" srcset="" /></div>
       <div class="title">
         <h1>@sahibul_nf</h1>
         <p>Information Technology Students</p>
@@ -71,7 +71,8 @@
           </span>
         </a>
 
-        <a href="https://glints.com/id/profile/public/38a2da19-c39e-4878-a1d3-0891af0b2079" target="_blank" rel="noopener noreferrer">
+        <a href="https://glints.com/id/profile/public/38a2da19-c39e-4878-a1d3-0891af0b2079" target="_blank"
+          rel="noopener noreferrer">
           <i class="bx bx-file bx-border bx-tada-hover"></i>
           <span>
             My CV or Resume
@@ -168,6 +169,13 @@
         </a>
 
       </div>
+
+      <!-- Messenger Chat plugin Code -->
+      <div id="fb-root"></div>
+
+      <!-- Your Chat plugin code -->
+      <div id="fb-customer-chat" class="fb-customerchat">
+      </div>
     </div>
   </div>
 
@@ -226,6 +234,28 @@
         menu.querySelector("button:nth-child(3)").classList.remove("active3");
       }
     });
+  </script>
+
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "107317251205002");
+    chatbox.setAttribute("attribution", "biz_inbox");
+
+    window.fbAsyncInit = function () {
+      FB.init({
+        xfbml: true,
+        version: 'v11.0'
+      });
+    };
+
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = 'https://connect.facebook.net/id_ID/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
   </script>
 </body>
 
